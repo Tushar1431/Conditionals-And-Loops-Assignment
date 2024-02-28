@@ -1,0 +1,70 @@
+*LOOPS* :-
+
+A loop in programming is the repetitive execution of a set of instructions until a specified condition is met. 
+It is used to automate repeated tasks and simplify code. In programming, a loop is a term used to describe the
+process of manually retyping codes that need to be repeated.
+
+
+#NEED :-
+To Minimize the repetative task , to reduce the manule work we use concept of loops.
+Loops are handy, if we want to run the same code over and over again, each time with a different value.
+
+#Different Kinds of Loops :-
+
+1)for :- loops through a block of code a number of times.
+Example:
+ 
+ for (let i = 0; i < 5; i++) 
+ { 
+	console.log("Hello World!"); 
+}
+
+2)for/in :- loops through the properties of an object.
+
+Example:-
+
+let myObj = { x: 1, y: 2, z: 3 }; 
+for (let key in myObj) 
+{ 
+	console.log(key, myObj[key]); 
+}
+
+
+3)for/of  :- loops through the values of an iterable object.
+Syntax:-
+
+for(let variable_name of  object_name) {
+    // Statement
+}
+
+Example:-
+
+let arr = [1, 2, 3, 4, 5]; 
+for (let value of arr) 
+{ 
+	console.log(value); 
+}
+
+
+4)while :- loops through a block of code while a specified condition is true.
+Example:-
+
+// JavaScript code to use while loop 
+let val = 1; 
+
+while (val < 6) { 
+	console.log(val); 
+	val += 1; 
+}
+
+5) do while:- This loop atleast executes one in his cycle .
+Example:-
+
+let test = 1; 
+
+do { 
+	console.log(test); 
+	test++; 
+} while(test <= 5)
+
+
